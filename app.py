@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 import os
 st.title('Digit Recognition')
 # Loading Model
-model=load_model('.\model')
+model=load_model('model/')
 # Writing Instructions
 instruct='''
 1) Draw Digits in the given space (saying Draw Image Here).\n
